@@ -1,0 +1,16 @@
+body {
+    font-size: 2em;
+}
+button {
+    width: 2em;
+    height: 2em;
+    float: left;
+    font-size: 2em;
+}
+button:nth-child(3n+1) {
+    clear: both;
+}
+
+.winning {
+    background-color: #00ff00;
+}
